@@ -24,9 +24,9 @@
 
 ``` html
 <div class="galy-upload-handle">
-	<button id="galy-upload-btn-browse" class="galy-upload-btn">选择文件</button>
-	<button id="galy-upload-btn-upload" class="galy-upload-btn">开始上传</button>
-	<button id="galy-upload-btn-empty" class="galy-upload-btn">清空队列</button>
+  <button id="galy-upload-btn-browse" class="galy-upload-btn">选择文件</button>
+  <button id="galy-upload-btn-upload" class="galy-upload-btn">开始上传</button>
+  <button id="galy-upload-btn-empty" class="galy-upload-btn">清空队列</button>
 </div>
 ```
 
