@@ -33,10 +33,9 @@
 ​	三个 `button` 就是对应的操作对象， `id`  及 `class` 自定义就好，按钮布局及样式自定义，为了简化流程，插件本身默认指定的对象`id` 分别是 `galy-upload-btn-browse`  、 `galy-upload-btn-upload` 、`galy-upload-btn-empty`  直接在原有的元素上添加即可。
 
 2. 然后在 `<script>` 实例化容器
-
-   ```javascript
-   $('#galy-upload').galyUpload();
-   ```
+ ```javascript
+$('#galy-upload').galyUpload();
+```
 
    这样就创建了基本的文件上传功能。
 
