@@ -1,0 +1,156 @@
+.wrapper {
+  width: 400px; }
+
+.galy-upload-btn {
+  border: none;
+  background-color: #ddd;
+  padding: 6px 12px; }
+
+#galy-upload {
+  width: 100%;
+  margin: 20px 0;
+  padding: 0; }
+
+.galy-upload-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.galy-upload-listview {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.galy-upload-item {
+  list-style-type: none;
+  height: 100px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  flex-wrap: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px 20px 5px 5px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: relative; }
+  .galy-upload-item .galy-upload-btn-remove {
+    border: none;
+    width: 10px;
+    height: 20px;
+    font-size: 12px;
+    padding: 0;
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    background: none;
+    outline: none; }
+    .galy-upload-item .galy-upload-btn-remove:hover {
+      cursor: pointer; }
+  .galy-upload-item:last-child {
+    border-bottom: 1px solid #ddd; }
+  .galy-upload-item .galy-upload-preview {
+    flex-shrink: 0 !important;
+    display: block;
+    width: 100px;
+    height: 100%;
+    background-color: #fafafa;
+    text-align: center;
+    overflow: hidden;
+    position: relative; }
+    .galy-upload-item .galy-upload-preview > img {
+      max-width: 100%;
+      height: 100%;
+      overflow: hidden; }
+    .galy-upload-item .galy-upload-preview > i {
+      display: block;
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      position: absolute;
+      top: 50%;
+      margin-top: -10px;
+      font-size: 20px; }
+  .galy-upload-item .galy-upload-info {
+    width: 100%;
+    height: 100%;
+    flex-grow: 0;
+    padding: 0 0 0 6px;
+    overflow: hidden; }
+    .galy-upload-item .galy-upload-info > p {
+      margin: 0;
+      padding: 0; }
+    .galy-upload-item .galy-upload-info .galy-upload-filename {
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .galy-upload-item .galy-upload-info .galy-upload-filesize {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #aaa; }
+    .galy-upload-item .galy-upload-info .galy-upload-filestatus {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: #aaa; }
+    .galy-upload-item .galy-upload-info .galy-upload-status {
+      width: 100%;
+      height: 20px;
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      flex-wrap: nowrap;
+      margin: 0;
+      padding: 0; }
+      .galy-upload-item .galy-upload-info .galy-upload-status .galy-upload-progress {
+        width: 100%;
+        height: 4px;
+        display: block;
+        margin: 0 10px 0 0;
+        padding: 0;
+        margin-top: 8px;
+        background-color: #fafafa; }
+        .galy-upload-item .galy-upload-info .galy-upload-status .galy-upload-progress .galy-upload-bar {
+          display: block;
+          width: 0;
+          height: 100%;
+          background-color: #55f; }
+      .galy-upload-item .galy-upload-info .galy-upload-status .galy-upload-percent {
+        margin: 0;
+        padding: 0;
+        width: 32px;
+        text-align: center;
+        line-height: 16px;
+        font-size: 12px; }
+  .galy-upload-item .upload-check {
+    visibility: hidden; }
+
+.galy-upload-status-success {
+  background-color: #01d762 !important; }
+
+.galy-upload-status-error {
+  background-color: #ff5e5e !important; }
+
+/*# sourceMappingURL=galyupload.css.map */
